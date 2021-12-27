@@ -1,0 +1,13 @@
+name: Art Gallery
+type: theme
+base theme: false
+description: 'An Art Gallery theme provided by Frontendmentor.io.'
+package: Custom
+core_version_requirement: ^8 || ^9
+
+
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
