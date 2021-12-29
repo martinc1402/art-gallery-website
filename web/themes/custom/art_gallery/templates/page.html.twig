@@ -1,2 +1,41 @@
-<h1>Hello World</h1>
-{{ page.content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+</head>
+<body>
+<header class="header">
+    {{ page.header }}
+    <br>
+    <div class="heading">
+        <h1>My Site Name</h1>
+    </div>
+    <nav class="menu">
+        {{ page.menu }}
+    </nav>
+</header>
+<main class="main">
+    <div class="content">
+    {{ page.content }}
+    </div>
+    {% if page.sidebar %}
+    <div class="sidebar">
+
+    </div>
+    {% endif %}
+</main>
+<footer class="footer">
+<div class="footer__heading">
+<h2>Modern Art Gallery</h2>
+</div>
+<div class="footer__summary">
+<p>The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
+</div>
+<div class="footer__social-icons">
+</div>
+</footer>  
+</body>
+</html>
