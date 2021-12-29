@@ -3,11 +3,13 @@ type: theme
 base theme: false
 description: 'An Art Gallery theme provided by Frontendmentor.io.'
 package: Custom
+version: VERSION
 core_version_requirement: ^8 || ^9
-
-
-
+libraries:
+  - art_gallery/styling
 regions:
-  header: 'Header'
-  content: 'Content'
-  footer: 'Footer'
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
