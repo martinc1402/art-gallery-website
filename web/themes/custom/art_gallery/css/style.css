@@ -82,6 +82,21 @@ header {
 h1 {
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 96px;
+    line-height: 88px;
+}
+
+.btn-header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 3.5em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(21, 21, 21) 80%, rgb(213, 150, 108) 80%);
 }
 
 
@@ -122,14 +137,14 @@ h1 {
     height: 650px;
     width: auto;
 }
-
+/* 
 .main__content-bottom-left-image {
 
 }
 
 .main__content-bottom-right-column {
    
-}
+} */
 
 .main__content--smaller-image {
    transform: translate(-92px, 7px);
