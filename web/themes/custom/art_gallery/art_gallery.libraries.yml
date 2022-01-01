@@ -3,3 +3,9 @@ styling:
   css:
     theme:
       css/style.css: {}
+
+fonts:
+  version: VERSION
+  css:
+    theme:
+      '//fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap': { type: external, minified: true }
